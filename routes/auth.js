@@ -32,7 +32,7 @@ router.post('/signup', function(req, res, next) {
             })
             .catch(err=>res.json({message:err}))
          })
-      }
+      } 
    })
 });
 
